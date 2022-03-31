@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio gamifié</title>
+</head>
+<style>
+    #nav{
+        display: none;
+    }
+</style>
+<body>
+    <nav id="nav">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <div class="content">
+            <label class="logo">Bohnert Alexandre</label>
+            <ul class="links">
+                <li><a href="./index.html">Portfolio</a></li>
+                <li><a href="./CV.pdf">Curriculum Vitae</a></li>
+                <li><a class="active">Portfolio gamifié</a></li>
+            </ul>
+        </div>
+      </nav>
+      <div>
+        <canvas class="webgl"></canvas>
+        <img src="./pluwumpy.jpg" alt="imageCV" id="imgCV">
+        <div id="textJeu">Ceci est un texte</div>
+      </div>
+</body>
+</html>
